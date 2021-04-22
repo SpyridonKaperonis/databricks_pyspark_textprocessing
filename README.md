@@ -100,3 +100,5 @@ df = pd.DataFrame.from_records(mostCommon, columns=[xlabel, ylabel])
 plt.figure(figsize=(10,3))
 sns.barplot(xlabel, ylabel, data=df, palette="Greens_d").set_title("Letters to a Friend text count")
 ```
+
+![Plot](https://github.com/SpyridonKaperonis/textprocessing-pyspark/blob/main/Capture.JPG)
